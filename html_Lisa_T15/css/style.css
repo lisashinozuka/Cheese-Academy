@@ -1,0 +1,356 @@
+@charset "utf-8";
+
+/* ここから下に記載していく */
+body {
+    width: 100%;
+}
+
+/* メニュー */
+ul{
+   font-size: 21px;
+   display: flex;
+    /* メニューが左に移動できていない 確認 */
+    justify-content: flex-end;
+}
+
+.header-list{
+    margin: 0 0 0 auto;
+}
+
+/* ヘッダーはイメージ右、メニュー左 */
+header {
+    /* imageにdivを作ることにより画像とメニューを同じ箱で表示できた */
+    display: flex;
+}
+/* headerの5menu */
+.title1 {
+    padding: 50px;
+}
+.title2 {
+    padding: 50px;
+}
+.title3 {
+    padding: 50px;
+}
+
+.title4{
+    padding: 50px;
+}
+.title5 {
+    padding: 50px;
+}
+
+/* cheese大画像と画像内コメント */
+.mainVisual {
+    background-image: url("../img/mainbg.png");
+    width: 100%;
+    height: 500px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-size: cover;
+}
+
+/* pizzaの大きな画像の中のコメンt */
+p.big {
+    font-size: 30px;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+p.small {
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    bottom: 42%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.content_text_1 {
+    padding-bottom: 40px;
+}
+.content_text_2 {
+    padding-bottom: 40px;
+}
+.content_text_3 {
+    padding-bottom: 40px;
+}
+.content_text_4 {
+  padding-bottom: 80px;
+}
+
+
+
+
+
+
+/* aboutの４画像 */
+.image4 {
+    display: flex;
+    justify-content: center;
+}
+
+/* course,access,contact */
+.content_blackTitle {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+/* COURSE下のコメント */
+.content_text_1_1 {
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 60px;
+
+}
+
+/* about,news */
+.content_yellowTitle {
+    text-align: center;
+    color: #ffd61a;
+    font-size: 24px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+/* news、会社情報、説明会お申し込み */
+.content_subtitle {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 60px;
+}
+
+.content_text {
+    text-align: center;
+    font-size: 16px;
+
+}
+
+/* mapしたコメント 学校名 */
+.content_text_1_2 {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 60px;
+}
+
+.content_text_1_3 {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+ .content_text_1_4 {
+        text-align: center;
+        font-size: 16px;
+        padding-top: 30px;
+}
+
+.content_text_1_5 {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 30px;
+}
+
+.content_text_1_6 {
+    text-align: center;
+    font-size: 16px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+/* CONTACT下のコメント */
+.content_text1_7 {
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 30px;
+}
+.content_text1_8 {
+    text-align: center;
+    font-size: 16px;
+    padding-bottom: 70px;
+}
+
+.content
+
+.content-text1 {
+    font-size: 16px;
+    text-align: start;
+}
+
+/* course1 左画像と右のコメント */
+.container1 {
+    display: flex;
+    justify-content: center;
+}
+
+.course1 {
+    width: 640px;
+}
+
+.container1_text {
+    width: 640px;
+    position: relative;
+    top: 120px;
+    left: 50px;
+    bottom: 480px;
+    text-align: start;
+}
+/* course2右画像と左のコメント */
+.container2 {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.container2_text {
+    width: 640px;
+    position: relative;
+    top: 120px;
+    /* 余裕があれば左から５０pxに直す */
+    left: 170px;
+    bottom: 480px;
+    text-align: start;
+}
+
+.course2 {
+    width: 640px;
+}
+
+/* course3左画像と右コメント */
+.container3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.course3 {
+    width: 640px;
+}
+
+.container3_text {
+    width: 640px;
+    position: relative;
+    top: 120px;
+    left: 50px;
+    bottom: 480px;
+    text-align: start;
+}
+
+
+
+.content_subtitle_course {
+    font-size: 24px;
+    font-weight: bold;
+    font-display: left;
+    margin-bottom: 40px;
+}
+
+
+.pizza {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.pizza_cut {
+    width: 300px;
+}
+.pizza_text1 {
+    padding-top: 30px;
+    padding-bottom: 24px;}
+
+
+.photo img {
+    height: 169px;
+    width: auto;
+
+}
+
+
+.content_more {
+    display: flex;
+    justify-content: center;
+    margin: 60px;
+    background-color: #ffd61a;
+    width: 300px;
+    height: 60px;
+    font-size: 18px;
+    color: white;
+}
+
+
+.button {
+    display: block;
+    margin: auto;
+    width: 300px;
+    height: 60px;
+    background-color: #ffd61a;
+    ;
+    border: 0;
+    color: white;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+
+.button1 {
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    background-color: #ffd61a;
+    ;
+    border: 0;
+    color: white;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 140px;
+
+}
+
+.row {
+    display: flex;
+}
+
+
+
+/* map */
+/* map中央揃えはHTMLのmapで指定した */
+.iframe {
+    /* marginは必要か不明 */
+    margin: o auto;
+}
+
+
+.content_text_footer {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    width: 1280px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #707070;
+}
+.img_slider {
+    /* width: 70%; */
+    margin: auto;
+}
+.lick-slidez{
+    margin: auto;
+}
+
+.li_img {
+margin: auto;
+}
